@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/BenCnts/blast-geth/consensus"
+	"github.com/BenCnts/blast-geth/core/state"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/params"
+	"github.com/BenCnts/blast-geth/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

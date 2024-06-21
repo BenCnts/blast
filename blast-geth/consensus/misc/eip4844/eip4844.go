@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/params"
 )
 
 var (

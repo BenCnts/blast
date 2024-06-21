@@ -23,8 +23,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/log"
 	"github.com/mattn/go-colorable"
 )
 

@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/console/prompt"
+	"github.com/BenCnts/blast-geth/core"
+	"github.com/BenCnts/blast-geth/eth"
+	"github.com/BenCnts/blast-geth/eth/ethconfig"
+	"github.com/BenCnts/blast-geth/internal/jsre"
+	"github.com/BenCnts/blast-geth/miner"
+	"github.com/BenCnts/blast-geth/node"
 )
 
 const (

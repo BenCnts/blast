@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/core"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/crypto"
+	"github.com/BenCnts/blast-geth/event"
+	"github.com/BenCnts/blast-geth/params"
+	"github.com/BenCnts/blast-geth/rpc"
+	"github.com/BenCnts/blast-geth/trie"
 )
 
 const (

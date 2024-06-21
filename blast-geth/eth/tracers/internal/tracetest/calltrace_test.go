@@ -24,17 +24,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/common/hexutil"
+	"github.com/BenCnts/blast-geth/common/math"
+	"github.com/BenCnts/blast-geth/core"
+	"github.com/BenCnts/blast-geth/core/rawdb"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/core/vm"
+	"github.com/BenCnts/blast-geth/eth/tracers"
+	"github.com/BenCnts/blast-geth/params"
+	"github.com/BenCnts/blast-geth/rlp"
+	"github.com/BenCnts/blast-geth/tests"
 )
 
 type callContext struct {

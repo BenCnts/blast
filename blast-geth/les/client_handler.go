@@ -20,13 +20,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/common/mclock"
+	"github.com/BenCnts/blast-geth/core/forkid"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/light"
+	"github.com/BenCnts/blast-geth/p2p"
+	"github.com/BenCnts/blast-geth/trie/trienode"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

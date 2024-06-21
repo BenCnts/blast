@@ -23,21 +23,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/BenCnts/blast-geth/accounts/abi"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/consensus"
+	"github.com/BenCnts/blast-geth/core"
+	"github.com/BenCnts/blast-geth/core/asm"
+	"github.com/BenCnts/blast-geth/core/rawdb"
+	"github.com/BenCnts/blast-geth/core/state"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/core/vm"
+	"github.com/BenCnts/blast-geth/eth/tracers"
+	"github.com/BenCnts/blast-geth/eth/tracers/logger"
+	"github.com/BenCnts/blast-geth/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
+	_ "github.com/BenCnts/blast-geth/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -604,7 +604,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/ethereum/go-ethereum/issues/22649
+// see: https://github.com/BenCnts/blast-geth/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

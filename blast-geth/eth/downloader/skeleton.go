@@ -24,12 +24,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/core/rawdb"
+	"github.com/BenCnts/blast-geth/core/types"
+	"github.com/BenCnts/blast-geth/eth/protocols/eth"
+	"github.com/BenCnts/blast-geth/ethdb"
+	"github.com/BenCnts/blast-geth/log"
 )
 
 // scratchHeaders is the number of headers to store in a scratch space to allow

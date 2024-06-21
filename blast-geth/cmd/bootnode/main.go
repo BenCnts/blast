@@ -25,13 +25,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/BenCnts/blast-geth/cmd/utils"
+	"github.com/BenCnts/blast-geth/crypto"
+	"github.com/BenCnts/blast-geth/log"
+	"github.com/BenCnts/blast-geth/p2p/discover"
+	"github.com/BenCnts/blast-geth/p2p/enode"
+	"github.com/BenCnts/blast-geth/p2p/nat"
+	"github.com/BenCnts/blast-geth/p2p/netutil"
 )
 
 func main() {

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/BenCnts/blast-geth/common"
+	"github.com/BenCnts/blast-geth/log"
+	"github.com/BenCnts/blast-geth/params"
 )
 
 const (

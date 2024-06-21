@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/BenCnts/blast-geth/internal/testlog"
+	"github.com/BenCnts/blast-geth/log"
+	"github.com/BenCnts/blast-geth/rpc"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

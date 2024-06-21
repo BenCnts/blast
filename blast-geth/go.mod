@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/BenCnts/blast-geth
 
 go 1.21
 

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/BenCnts/blast-geth/common"
 )
 
 type AddrLocker struct {
